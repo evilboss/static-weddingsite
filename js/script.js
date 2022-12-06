@@ -510,11 +510,14 @@
                 0: {
                     items: 1,
                     autoplay: true,
-
+                    navText:["<div class='nav-btn prev-slide'><i class='fa fa-chevron-left'></i></div>","<div class='nav-btn next-slide'><i class='fa fa-chevron-right'></i></div>"],
+                    nav: true
                 },
                 480: {
                     items: 1,
                     autoplay: true,
+                    navText:["<div class='nav-btn prev-slide'><i class='fa fa-chevron-left'></i></div>","<div class='nav-btn next-slide'><i class='fa fa-chevron-right'></i></div>"],
+                    nav: true
                 },
                 768: {
                     items: 4
