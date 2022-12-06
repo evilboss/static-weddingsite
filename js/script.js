@@ -498,9 +498,9 @@
     -------------------------------------------*/
     if ($(".gif-registration-slider").length) {
         $('.gif-registration-slider').owlCarousel({
-            items: 3,
+            items: 4,
             dots: false,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 3000,
             smartSpeed: 1000,
             loop: true,
@@ -508,13 +508,13 @@
             stagePadding: 10,
             responsive: {
                 0: {
-                    items: 1
+                    items: 4
                 },
                 480: {
-                    items: 2
+                    items: 4
                 },
                 768: {
-                    items: 3
+                    items: 4
                 }
             }
         });
