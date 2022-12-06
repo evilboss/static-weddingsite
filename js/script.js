@@ -501,17 +501,20 @@
             items: 4,
             dots: false,
             autoplay: false,
-            autoplayTimeout: 3000,
+            autoplayTimeout: 10000,
             smartSpeed: 1000,
             loop: true,
             margin: 20,
             stagePadding: 10,
             responsive: {
                 0: {
-                    items: 4
+                    items: 1,
+                    autoplay: true,
+
                 },
                 480: {
-                    items: 4
+                    items: 1,
+                    autoplay: true,
                 },
                 768: {
                     items: 4
