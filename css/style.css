@@ -3003,31 +3003,20 @@ a:focus {
 }
 
 @media screen and (min-width: 992px) {
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(4),
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(5),
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(6) {
-    margin-top: 30px;
+  .inportant-people-section .tab-content .grid-wrapper > .grid {
+    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 991px) {
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(3),
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(4),
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(5),
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(6) {
-    margin-top: 30px;
+  .inportant-people-section .tab-content .grid-wrapper > .grid {
+    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 550px) {
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(3),
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(4),
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(5),
-  .inportant-people-section .tab-content .grid-wrapper > .grid:nth-child(6) {
+  .inportant-people-section .tab-content .grid-wrapper > .grid {
     margin-top: 0;
-  }
-  .inportant-people-section .tab-content .grid-wrapper > .grid + .grid {
-    margin-top: 30px;
   }
 }
 
