@@ -2199,11 +2199,17 @@ a:focus {
 --------------------------------------------------------------*/
 .wedding-couple-section .gb {
   overflow: hidden;
+  background: rgba(94, 154, 142, 0.05);
+}
+
+.wedding-couple-section .gb.bride {
+  display: flex;
 }
 
 .wedding-couple-section .gb > div {
   width: 50%;
   float: left;
+  height: 100% !important;
 }
 
 @media (max-width: 991px) {
@@ -2227,7 +2233,6 @@ a:focus {
 }
 
 .wedding-couple-section .details {
-  background-color: rgba(94, 154, 142, 0.05);
   padding: 50px 55px;
 }
 
